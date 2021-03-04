@@ -1,0 +1,106 @@
+<!-- Boiler Plate for HTML -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Title for page, webpage tab label -->
+  <title>Dave's Personal Site</title>
+</head>
+<!-- Start of the body of the webpage -->
+<body>
+  <!-- Start of a table in html -->
+  <!-- This table is what is placing the image and my information side by side -->
+  <table cellspacing="20">
+    <!-- td is for table data i.e. 1 cell -->
+    <!-- tr creates a row in the table, nesting td created new cells moving left to right -->
+    <!-- img inserts an image onto the page, source is either the web address or file path to the photo -->
+    <td><img src="images\d20-dice-mimic-pup-red1031296-prints.jpg" alt="" width="200"></td>
+    <td>
+      <!-- h1 thorugh h6 are heading styles that get progrssively smaller w/ h1 being largest -->
+      <h1>Dave Bush</h1>
+      <!-- p tag is for paragraphs, creating a paragraph on a new line with each p tag -->
+      <!-- em is used for italics, i is also a possible tag but em is better practice -->
+      <!-- strong is used for bolding, b is also possible, same case as em -->
+      <p><em>Security Professional at <strong><a href="https://www.garda.com/">Garda World</a></strong></em></p>
+      <p>This is a bio paragraph to introduce myself, i'll get around to this eventually...maybe!</p>
+    </td>
+  </table>
+<!-- hr creates a horizontal line across the page -->
+  <hr>
+  <h3>Edumacation & Smarticles</h3>
+<!-- ul is used to create an unordered/bulleted list -->
+  <ul>
+    <!-- li creates a list item at a bullet point -->
+    <li>Reynolds</li>
+    <li>Camosun</li>
+    <li>ABCB</li>
+    <li>Garda World</li>
+    <li>idk this is practice</li>
+  </ul>
+  <h3>Things I Like Doin'</h3>
+<!-- ol creates an ordered/numbered list -->
+  <ol>
+    <li>DnD</li>
+    <li>Board Games</li>
+    <li>Mullet Headed Wife Like People That Won't Leave My Apartment</li>
+    <li>M:tG</li>
+    <li>Stuff</li>
+    <li>Things</li>
+  </ol>
+  <h3>Nesting Lists</h3>
+<!-- you can nest ul and ol to create sub lists -->
+  <ol>
+    <li>testing 1</li>
+    <li>demo 2</li>
+    <ul>
+      <li>stuff</li>
+      <li>things</li>
+
+    </ul>
+    <li>fubar</li>
+  </ol>
+  <hr>
+  <p>Work Experience</p>
+  <!-- thead, tbody, tfoot create the header, body, and footer for a table. Used with css for styling sections of a table together -->
+  <!-- the border attribute created a border around the table and cells in the table -->
+  <table border="1">
+    <thead>
+      <tr>
+        <!-- th tag tells html the information contained is the header for the table -->
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jun 2020 -Jul 2020</td>
+        <td>Garda World Security Professional</td>
+      </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+  </table>
+  <hr>
+  <h3>Skills</h3>
+  <table>
+    <tr>
+      <td>Web Development</td>
+      <td>✭✭✭✭✭</td>
+    </tr>
+    <tr>
+      <td>Microsoft Excel</td>
+      <td>✭✭✭</td>
+    </tr>
+    <tr>
+      <td>Driving</td>
+      <td>✭✭✭✭</td>
+    </tr>
+  </table>
+  <hr>
+  <!-- the a tag creates an anchor/link to another page, href is the link it is going to -->
+  <h3><a href="contact.html">Contact Me</a></h3>
+</body>
+
+</html>
